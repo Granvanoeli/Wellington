@@ -7,7 +7,7 @@ generate_cone = keyboard_check(ord("C"));
 v_speed += grav;
 
 
-if(place_meeting(x,y+v_speed,obj_welli)){
+if(place_meeting(x,y+v_speed,obj_ground)){
 	
 	while(!place_meeting(x, y + sign(v_speed),obj_welli)){
 		y += sign(v_speed);

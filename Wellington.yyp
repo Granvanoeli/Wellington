@@ -1,11 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"spr_seagull","path":"sprites/spr_seagull/spr_seagull.yy",},"order":3,},
     {"id":{"name":"obj_cone","path":"objects/obj_cone/obj_cone.yy",},"order":2,},
     {"id":{"name":"spr_welli","path":"sprites/spr_welli/spr_welli.yy",},"order":0,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":1,},
     {"id":{"name":"spr_cone","path":"sprites/spr_cone/spr_cone.yy",},"order":2,},
+    {"id":{"name":"game","path":"objects/game/game.yy",},"order":4,},
     {"id":{"name":"obj_welli","path":"objects/obj_welli/obj_welli.yy",},"order":0,},
-    {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":3,},
+    {"id":{"name":"collision","path":"objects/collision/collision.yy",},"order":3,},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
