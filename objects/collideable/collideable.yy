@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_ground",
-    "path": "sprites/spr_ground/spr_ground.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "collideable",
-    "path": "objects/collideable/collideable.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Meta",
+    "path": "folders/Objects/Meta.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ground",
+  "name": "collideable",
   "tags": [],
   "resourceType": "GMObject",
 }
