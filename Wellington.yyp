@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_weegie","path":"objects/obj_weegie/obj_weegie.yy",},"order":8,},
     {"id":{"name":"spr_seagull","path":"sprites/spr_seagull/spr_seagull.yy",},"order":3,},
     {"id":{"name":"obj_cone","path":"objects/obj_cone/obj_cone.yy",},"order":2,},
     {"id":{"name":"spr_welli","path":"sprites/spr_welli/spr_welli.yy",},"order":0,},
@@ -11,6 +12,7 @@
     {"id":{"name":"collision","path":"objects/collision/collision.yy",},"order":1,},
     {"id":{"name":"obj_seagull","path":"objects/obj_seagull/obj_seagull.yy",},"order":5,},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":1,},
+    {"id":{"name":"spr_weegie","path":"sprites/spr_weegie/spr_weegie.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
