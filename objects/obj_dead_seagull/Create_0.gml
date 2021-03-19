@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+hsp = 0;
+vsp = 0;
+grv = 0.3;
+done = 0;
 
-seagull_x = 0;
-seagull_y = 0;
-alarm[0] = 2*room_speed;
+image_speed = 0;

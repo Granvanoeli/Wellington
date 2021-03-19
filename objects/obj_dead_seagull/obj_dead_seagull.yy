@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_chip",
-    "path": "sprites/spr_chip/spr_chip.yy",
+    "name": "spr_dead_seagull",
+    "path": "sprites/spr_dead_seagull/spr_dead_seagull.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":77,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_chip","path":"objects/obj_chip/obj_chip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_seagull","path":"objects/obj_seagull/obj_seagull.yy",},"parent":{"name":"obj_chip","path":"objects/obj_chip/obj_chip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_dead_seagull","path":"objects/obj_dead_seagull/obj_dead_seagull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_dead_seagull","path":"objects/obj_dead_seagull/obj_dead_seagull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_chip",
+  "name": "obj_dead_seagull",
   "tags": [],
   "resourceType": "GMObject",
 }
