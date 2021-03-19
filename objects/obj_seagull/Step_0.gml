@@ -8,7 +8,7 @@ if(place_meeting(x+h_speed, y, obj_ground)){
 	while(!place_meeting(x+sign(h_speed),y,obj_ground)){
 		x += sign(h_speed);
 	}
-	h_speed = -h_speed;
+	h_speed = 0;
 }
 
 x = x + h_speed;
