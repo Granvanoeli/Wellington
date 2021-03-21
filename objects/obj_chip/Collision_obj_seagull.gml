@@ -9,4 +9,6 @@ with (other) {
 	hitFrom = choose(0,180);
 }
 
+score += 10;
+global.gulls += 1;
 instance_destroy();
