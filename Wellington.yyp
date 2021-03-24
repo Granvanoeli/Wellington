@@ -22,6 +22,7 @@
     {"id":{"name":"collideable","path":"objects/collideable/collideable.yy",},"order":0,},
     {"id":{"name":"collision","path":"objects/collision/collision.yy",},"order":1,},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":2,},
+    {"id":{"name":"spr_worker","path":"sprites/spr_worker/spr_worker.yy",},"order":13,},
     {"id":{"name":"spr_weegie","path":"sprites/spr_weegie/spr_weegie.yy",},"order":4,},
     {"id":{"name":"spr_seagull2","path":"sprites/spr_seagull2/spr_seagull2.yy",},"order":11,},
     {"id":{"name":"spr_heathbar_bezel","path":"sprites/spr_heathbar_bezel/spr_heathbar_bezel.yy",},"order":7,},
