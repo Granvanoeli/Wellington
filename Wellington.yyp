@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_cone2","path":"sprites/spr_cone2/spr_cone2.yy",},"order":14,},
     {"id":{"name":"obj_weegie","path":"objects/obj_weegie/obj_weegie.yy",},"order":4,},
     {"id":{"name":"sh_red","path":"shaders/sh_red/sh_red.yy",},"order":0,},
     {"id":{"name":"obj_seagull","path":"objects/obj_seagull/obj_seagull.yy",},"order":6,},
