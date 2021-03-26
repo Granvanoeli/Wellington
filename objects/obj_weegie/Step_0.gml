@@ -29,3 +29,8 @@ if (shoot && firing_delay < 0){
 		direction = 90;
 	}
 }
+
+// Animation
+if (shoot){
+	sprite_index = spr_weegie_shoot;	
+}

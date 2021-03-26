@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_weegie2",
-    "path": "sprites/spr_weegie2/spr_weegie2.yy",
+    "name": "spr_weegie",
+    "path": "sprites/spr_weegie/spr_weegie.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_seagull",
-    "path": "sprites/spr_seagull/spr_seagull.yy",
+    "name": "spr_seagull_old",
+    "path": "sprites/spr_seagull_old/spr_seagull_old.yy",
   },
   "solid": false,
   "visible": true,
