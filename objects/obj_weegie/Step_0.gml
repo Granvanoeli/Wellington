@@ -33,4 +33,6 @@ if (shoot && firing_delay < 0){
 // Animation
 if (shoot){
 	sprite_index = spr_weegie_shoot;	
+} else {
+	sprite_index = spr_weegie
 }
