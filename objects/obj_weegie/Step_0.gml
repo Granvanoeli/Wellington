@@ -23,9 +23,9 @@ x = x + h_speed;
 firing_delay -= 1;
 if (shoot && firing_delay < 0){
 	
-	firing_delay = 10;
+	firing_delay = 15;
 	with (instance_create_layer(x, y, "Chips", obj_chip)){
-		speed = 10;
+		speed = 5;
 		direction = 90;
 	}
 }

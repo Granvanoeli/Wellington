@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Seagull death
 // You can write your code in this editor
 
 //If dead

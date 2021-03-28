@@ -1,26 +1,28 @@
-/// @description Insert description here
+/// @description Generate seagulls
 // You can write your code in this editor
 
 show_debug_message("GULL");
 
-left_or_right = choose(-20, room_width);
-
-gull_x = left_or_right;
-gull_y = random_range(250, 310);
-
-var gull_inst = instance_create_layer(gull_x, gull_y, "Seagulls", obj_seagull);
 
 
-with(gull_inst){	
+//gull_x = left_or_right;
+gull_y = random_range(82, 103);
+
+//var gull_inst = instance_create_layer(gull_x, gull_y, "Seagulls", obj_seagull);
+
+
+with(instance_create_layer(choose(-20, room_width), gull_y, "Seagulls", obj_seagull)){	
+	
+	
 	// Assign direction of movement
-	if(other.left_or_right > 0){
-		h_speed = -2;
+	if(x > 0){
+		h_speed = -1;
 	}
 	else{
-		h_speed = 2;
+		h_speed = 1;
 	}	
 	// Flip the sprite in the direction of movement
-	image_xscale = sign(other.left_or_right) * -1;
+	image_xscale = sign(x);
 	
 }
 

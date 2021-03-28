@@ -28,6 +28,7 @@
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":3,},
     {"id":{"name":"spr_worker","path":"sprites/spr_worker/spr_worker.yy",},"order":10,},
     {"id":{"name":"spr_weegie_old","path":"sprites/spr_weegie_old/spr_weegie_old.yy",},"order":0,},
+    {"id":{"name":"spr_seagull1_old2","path":"sprites/spr_seagull1_old2/spr_seagull1_old2.yy",},"order":4,},
     {"id":{"name":"spr_seagull","path":"sprites/spr_seagull/spr_seagull.yy",},"order":5,},
     {"id":{"name":"spr_heathbar_bezel","path":"sprites/spr_heathbar_bezel/spr_heathbar_bezel.yy",},"order":1,},
     {"id":{"name":"rm_square","path":"rooms/rm_square/rm_square.yy",},"order":0,},
