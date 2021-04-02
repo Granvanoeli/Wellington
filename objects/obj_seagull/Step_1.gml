@@ -10,11 +10,14 @@ if (hp <= 0){
 		direction = other.hitFrom;
 		
 		// Set speeds using lengthdir and the direction
-		hsp = lengthdir_x(3, direction);
-		vsp = lengthdir_y(3, direction)-2;
+		hsp = lengthdir_x(1, direction);
+		vsp = lengthdir_y(1, direction)-1;
 		
 		// Flip the image according to the direction the dead seagull is movin in
-		if(sign(hsp) != 0) image_xscale = sign(hsp);
+		//if(sign(hsp) != 0) image_xscale = sign(hsp)*-1;
+		if (hsp = 1){ image_xscale = -1; }
+		else if (hsp = -1) { image_xscale = 1; }
+		else { show_debug_message("obj_seagull something is wrong"); }
 	}
 	// Destroy seagull
 	instance_destroy();	

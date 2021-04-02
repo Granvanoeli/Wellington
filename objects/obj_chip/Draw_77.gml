@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Destroy on impact
 // You can write your code in this editor
 
 // This is Post-Draw because theun it won't look like it's disappearing inside the target

@@ -6,9 +6,13 @@
 with (other) {
 	hp --;
 	flash = 3;
-	hitFrom = choose(0,180);
+	if(h_speed > 0){
+		hitFrom = 0;	
+	}
+	else if (h_speed < 0) {
+		hitFrom = 180;	
+	}
 }
 
-score += 10;
-global.gulls += 1;
+score += 5;
 instance_destroy();

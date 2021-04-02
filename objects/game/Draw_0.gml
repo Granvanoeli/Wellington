@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_set_colour(c_black);
-draw_set_font(f_body);
-draw_text(15,32, "Score: " +string(score));
-draw_text(15,44, "Gulls: " +string(global.gulls));
+
+draw_set_font(blocky_font);
+draw_text_transformed(10,32, "SCORE: " +string(score), 0.6, 0.6, 0);
+draw_text_transformed(10,45, "GULLS: " +string(global.gulls), 0.6, 0.6, 0);
