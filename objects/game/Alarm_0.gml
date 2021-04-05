@@ -16,10 +16,10 @@ with(instance_create_layer(choose(-20, room_width), gull_y, "Seagulls", obj_seag
 	
 	// Assign direction of movement
 	if(x > 0){
-		h_speed = -1;
+		h_speed = -0.5;
 	}
 	else{
-		h_speed = 1;
+		h_speed = 0.5;
 	}	
 	// Flip the sprite in the direction of movement
 	image_xscale = sign(x);
