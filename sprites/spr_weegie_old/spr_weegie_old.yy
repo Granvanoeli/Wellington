@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b5b4f5c5-daef-4ebc-a889-87f6aad4279f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "old",
-    "path": "folders/Sprites/old.yy",
+    "name": "Old",
+    "path": "folders/Sprites/Old.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_weegie_old",

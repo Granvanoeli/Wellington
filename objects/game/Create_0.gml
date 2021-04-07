@@ -5,6 +5,7 @@ score = 0;
 global.gulls = 0;
 global.bleed = 32;
 
+
 // Set up the seagull creation;
 alarm[0] = 2*room_speed;
 

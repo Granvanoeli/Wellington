@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"be92d359-1504-465b-a854-de25c4a5c69c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "old",
-    "path": "folders/Sprites/old.yy",
+    "name": "Old",
+    "path": "folders/Sprites/Old.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_welli_old",

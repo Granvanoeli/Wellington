@@ -3,10 +3,8 @@
 
 show_debug_message("GULL");
 
-
-
 //gull_x = left_or_right;
-gull_y = random_range(82, 103);
+gull_y = random_range(140, 160);
 
 //var gull_inst = instance_create_layer(gull_x, gull_y, "Seagulls", obj_seagull);
 

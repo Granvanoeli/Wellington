@@ -92,8 +92,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fa9a3341-f9bb-4f03-9f92-f7b341fde986","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "old",
-    "path": "folders/Sprites/old.yy",
+    "name": "Old",
+    "path": "folders/Sprites/Old.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_seagull1_old2",

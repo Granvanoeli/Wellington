@@ -3,6 +3,6 @@
 h_speed = 0;
 v_speed = 0;
 
-move_speed = 3;
+move_speed = 50;
 
 firing_delay = 10;
