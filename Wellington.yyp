@@ -1,7 +1,9 @@
 {
   "resources": [
     {"id":{"name":"spr_cone","path":"sprites/spr_cone/spr_cone.yy",},"order":1,},
+    {"id":{"name":"spr_chipshop","path":"sprites/spr_chipshop/spr_chipshop.yy",},"order":17,},
     {"id":{"name":"f_zx7_b","path":"fonts/f_zx7_b/f_zx7_b.yy",},"order":7,},
+    {"id":{"name":"obj_chipshop","path":"objects/obj_chipshop/obj_chipshop.yy",},"order":9,},
     {"id":{"name":"f_tiny_box_c","path":"fonts/f_tiny_box_c/f_tiny_box_c.yy",},"order":4,},
     {"id":{"name":"obj_weegie","path":"objects/obj_weegie/obj_weegie.yy",},"order":1,},
     {"id":{"name":"sh_red","path":"shaders/sh_red/sh_red.yy",},"order":0,},
@@ -76,7 +78,7 @@
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Meta.yy","order":0,"resourceVersion":"1.0","name":"Meta","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/Old.yy","order":17,"resourceVersion":"1.0","name":"Old","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Old.yy","order":18,"resourceVersion":"1.0","name":"Old","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/GUI.yy","order":0,"resourceVersion":"1.0","name":"GUI","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
