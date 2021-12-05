@@ -10,5 +10,5 @@ hp = 8;
 hp_max = hp;
 healthbar_w = sprite_get_width(spr_healthbar_bg);
 healthbar_h = 8;
-healthbar_x = room_width/2;
+healthbar_x = (room_width/2)-40;
 healthbar_y = 20;

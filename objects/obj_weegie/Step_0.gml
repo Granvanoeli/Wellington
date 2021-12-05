@@ -43,11 +43,13 @@ if (shoot){
 	sprite_index = spr_weegie
 }
 
+//Reloading at chip shop
 if(place_meeting(x,y,obj_chipshop)){
 	
 	if (reload && !reloading) {
 		with(obj_chipshop){
-			frying = true;	
+			frying = true;
+			stopwatch = instance_create_layer(x,y,"Instances", obj_stopwatch)
 		}
 		reloading = true;
 	}
