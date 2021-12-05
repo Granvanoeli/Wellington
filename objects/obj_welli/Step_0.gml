@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Get player input
-key_left = keyboard_check(vk_left);
+/*key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 
 //Calculate movement
@@ -19,4 +19,4 @@ if(place_meeting(x+h_speed,y,obj_ground)){
 	h_speed = 0;
 }
 
-x = x + h_speed;
+x = x + h_speed;*/
