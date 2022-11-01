@@ -1,20 +1,14 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bounds",
-  "spriteId": {
-    "name": "spr_bounds",
-    "path": "sprites/spr_bounds/spr_bounds.yy",
-  },
+  "name": "obj_bru",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "collideable",
-    "path": "objects/collideable/collideable.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bounds",
+  "name": "obj_seagull_bru",
   "spriteId": {
-    "name": "spr_bounds",
-    "path": "sprites/spr_bounds/spr_bounds.yy",
+    "name": "spr_seagullBRU",
+    "path": "sprites/spr_seagullBRU/spr_seagullBRU.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "collideable",
-    "path": "objects/collideable/collideable.yy",
+    "name": "obj_seagull",
+    "path": "objects/obj_seagull/obj_seagull.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

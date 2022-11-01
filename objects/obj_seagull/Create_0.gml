@@ -11,4 +11,3 @@ firing_delay = 10;
 hp = 2;
 flash = 0;
 hitFrom = 0;
-hasIRNBRU = false;

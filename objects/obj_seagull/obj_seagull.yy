@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_seagull",
-  "spriteId": {
-    "name": "spr_seagull",
-    "path": "sprites/spr_seagull/spr_seagull.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
