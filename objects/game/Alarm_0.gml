@@ -6,11 +6,16 @@ show_debug_message("GULL");
 //gull_x = left_or_right;
 gull_y = random_range(140, 160);
 
+
+// Some seagulls have a BRU
+if (irandom(25)==25){
+	
+}
+
 //var gull_inst = instance_create_layer(gull_x, gull_y, "Seagulls", obj_seagull);
 
 
 with(instance_create_layer(choose(-20, room_width), gull_y, "Seagulls", obj_seagull)){	
-	
 	
 	// Assign direction of movement
 	if(x > 0){
