@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_bru",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_bru_small",
+    "path": "sprites/spr_bru_small/spr_bru_small.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

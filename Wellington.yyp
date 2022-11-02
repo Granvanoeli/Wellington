@@ -7,6 +7,7 @@
     {"id":{"name":"spr_chipshop","path":"sprites/spr_chipshop/spr_chipshop.yy",},"order":19,},
     {"id":{"name":"f_zx7_b","path":"fonts/f_zx7_b/f_zx7_b.yy",},"order":7,},
     {"id":{"name":"obj_chipshop","path":"objects/obj_chipshop/obj_chipshop.yy",},"order":9,},
+    {"id":{"name":"spr_bru_small","path":"sprites/spr_bru_small/spr_bru_small.yy",},"order":24,},
     {"id":{"name":"spr_chips","path":"sprites/spr_chips/spr_chips.yy",},"order":10,},
     {"id":{"name":"f_tiny_box_c","path":"fonts/f_tiny_box_c/f_tiny_box_c.yy",},"order":4,},
     {"id":{"name":"obj_weegie","path":"objects/obj_weegie/obj_weegie.yy",},"order":1,},
