@@ -6,17 +6,21 @@ show_debug_message("GULL");
 //gull_x = left_or_right;
 gull_y = random_range(140, 160);
 
+// Some seagulls have a BRU
+hasBRU = irandom(4) == 4 ? true : false;
 
 //var gull_inst = instance_create_layer(gull_x, gull_y, "Seagulls", obj_seagull);
 
 
-// Some seagulls have a BRU
-if (irandom(4)==4){ 	
-	var gull = instance_create_layer(choose(-20, room_width), gull_y, "Seagulls", obj_seagull_bru, {hasBRU: true});
-}
-else { 
-	var gull = instance_create_layer(choose(-20, room_width), gull_y, "Seagulls", obj_seagull_normal, {hasBRU:  false});
-}
+var gull = instance_create_layer(
+	choose(-20, room_width), 
+	gull_y, 
+	"Seagulls", 
+	obj_seagull, 
+	{
+		BRU:  hasBRU,
+		sprite_index: hasBRU ? spr_seagullBRU : spr_seagull
+	});
 
 with(gull){	
 		
