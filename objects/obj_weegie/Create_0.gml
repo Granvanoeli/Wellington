@@ -3,8 +3,8 @@
 h_speed = 0;
 v_speed = 0;
 
-
 move_speed = 3;
+isSteamin = false;
 
 firing_delay = 10;
 reloading = false;

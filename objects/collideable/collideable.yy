@@ -1,7 +1,11 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "collideable",
   "spriteId": null,
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -24,8 +28,4 @@
     "name": "Meta",
     "path": "folders/Objects/Meta.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "collideable",
-  "tags": [],
-  "resourceType": "GMObject",
 }

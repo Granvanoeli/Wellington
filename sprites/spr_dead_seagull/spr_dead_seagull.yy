@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_dead_seagull",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 32,
   "height": 16,
   "textureGroupId": {
@@ -24,19 +28,13 @@
   "gridX": 8,
   "gridY": 8,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8079cf18-ad36-4e85-818d-3e969e86a164","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8079cf18-ad36-4e85-818d-3e969e86a164","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"LayerId":{"name":"3e5abc75-9c8d-4892-9fa9-5807d0c74659","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"8079cf18-ad36-4e85-818d-3e969e86a164","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"LayerId":{"name":"6bd00ae6-ffef-4f1b-b8fd-f3d6ccba5871","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"8079cf18-ad36-4e85-818d-3e969e86a164","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"LayerId":{"name":"e350dd53-bfc7-4f08-afd0-3afe10f210af","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_dead_seagull","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"resourceVersion":"1.0","name":"8079cf18-ad36-4e85-818d-3e969e86a164","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5eadf29b-dcfd-4f6a-b3f8-b4e61c03a1a8","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5eadf29b-dcfd-4f6a-b3f8-b4e61c03a1a8","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"LayerId":{"name":"3e5abc75-9c8d-4892-9fa9-5807d0c74659","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"5eadf29b-dcfd-4f6a-b3f8-b4e61c03a1a8","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"LayerId":{"name":"6bd00ae6-ffef-4f1b-b8fd-f3d6ccba5871","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"5eadf29b-dcfd-4f6a-b3f8-b4e61c03a1a8","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"LayerId":{"name":"e350dd53-bfc7-4f08-afd0-3afe10f210af","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_dead_seagull","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"resourceVersion":"1.0","name":"5eadf29b-dcfd-4f6a-b3f8-b4e61c03a1a8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8079cf18-ad36-4e85-818d-3e969e86a164",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5eadf29b-dcfd-4f6a-b3f8-b4e61c03a1a8",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_dead_seagull","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_dead_seagull",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -47,10 +45,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ba2ea24f-684c-4d9b-bd7b-b20014c4df50","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8079cf18-ad36-4e85-818d-3e969e86a164","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"54ec9e23-2236-4bb4-9a66-52c97a188120","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5eadf29b-dcfd-4f6a-b3f8-b4e61c03a1a8","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,21 +64,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_dead_seagull","path":"sprites/spr_dead_seagull/spr_dead_seagull.yy",},
-    "resourceVersion": "1.3",
-    "name": "spr_dead_seagull",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e350dd53-bfc7-4f08-afd0-3afe10f210af","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e350dd53-bfc7-4f08-afd0-3afe10f210af","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_dead_seagull",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

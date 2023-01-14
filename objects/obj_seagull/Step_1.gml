@@ -4,9 +4,16 @@
 //If dead
 if (hp <= 0){
 	
+	if (BRU){
+		var deadGull = instance_create_layer(x,y,layer,obj_dead_seagull_bru);
+		var bruCan = instance_create_layer(x,y,layer,obj_bru);
+	}
+	else {
+		var deadGull = instance_create_layer(x,y,layer,obj_dead_seagull);
+	}
 	// Create a dead seagull in the same place where the collision happened
-	with(instance_create_layer(x,y,layer,obj_dead_seagull)){
-		// Get the direction (set randomly in the chip object,canonly be left or right)		
+	with(deadGull){
+		// Get the direction (set randomly in the chip object, can only be left or right)		
 		direction = other.hitFrom;
 		
 		// Set speeds using lengthdir and the direction
@@ -14,7 +21,6 @@ if (hp <= 0){
 		vsp = lengthdir_y(1, direction)-1;
 		
 		// Flip the image according to the direction the dead seagull is movin in
-		//if(sign(hsp) != 0) image_xscale = sign(hsp)*-1;
 		if (hsp = 1){ image_xscale = -1; }
 		else if (hsp = -1) { image_xscale = 1; }
 		else { show_debug_message("obj_seagull something is wrong"); }
