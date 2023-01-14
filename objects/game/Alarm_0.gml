@@ -9,7 +9,6 @@ gull_y = random_range(140, 160);
 // Some seagulls have a BRU
 hasBRU = irandom(4) == 4 ? true : false;
 
-//var gull_inst = instance_create_layer(gull_x, gull_y, "Seagulls", obj_seagull);
 
 
 var gull = instance_create_layer(
@@ -36,6 +35,7 @@ with(gull){
 	
 }
 
+// Trigger allarm to run again in 2 seconds.
 alarm[0] = 2*room_speed;
 
 
