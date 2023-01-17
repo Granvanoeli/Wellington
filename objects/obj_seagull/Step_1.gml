@@ -3,7 +3,7 @@
 
 //If dead
 if (hp <= 0){
-	
+	//Create the right dead seagull
 	if (BRU){
 		var deadGull = instance_create_layer(x,y,layer,obj_dead_seagull_bru);
 		var bruCan = instance_create_layer(x,y,layer,obj_bru);

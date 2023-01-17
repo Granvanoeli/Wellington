@@ -9,6 +9,7 @@ if(frying) {
 }
 
 if (chips_done){
-	draw_set_halign(fa_middle);
-	draw_text_transformed(x+2,y, "CHIPS DONE!", 0.8, 0.8, 0);
+	//draw_set_halign(fa_middle);
+	//draw_text_transformed(x+2,y, "CHIPS DONE!", 0.8, 0.8, 0);
+	scribble("[wave][spr_font] CHIPS DONE![/]").align(fa_middle, fa_center).draw(x+2,y);
 }

@@ -4,7 +4,7 @@
 // On contact with cone 
 with (other) {
 	hp --;
-	flash = 3;
+	flash = 5;
 }
 
 // Destroy seagull instance on contact with cone
