@@ -4,6 +4,7 @@
 score = 0;
 global.gulls = 0;
 global.bleed = 32;
+#macro chips_wait_time room_speed*5
 
 
 // Set up the seagull creation;

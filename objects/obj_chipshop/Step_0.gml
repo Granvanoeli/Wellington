@@ -12,7 +12,7 @@ if (frying){
 		
 		instance_destroy(stopwatch); // Remove the stopwatch
 		chips_box = instance_create_layer(540,280,"Chips", obj_chip_box); // Place chip box
-		chips_waiting_time = 300;	// Reset chips timer		
+		chips_waiting_time = chips_wait_time;	// Reset chips timer		
 	}
 
 }
