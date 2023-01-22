@@ -6,6 +6,7 @@ move_speed = 6;
 // Make the can disappear
 with (other){
 	instance_destroy();
+	var sequence = layer_sequence_create("Chips", x, y, Sequence1);
 }
 
 //Set the alarm for the speed 
